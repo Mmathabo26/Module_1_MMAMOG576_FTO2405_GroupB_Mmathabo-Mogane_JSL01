@@ -3,7 +3,8 @@ function validateSyntax() {
     // Validation logic goes here
 
     s1= "pet_2015Forrest";
-    let result = s1.startsWith("pet_");       
+    let result = s1.startsWith("pet_");      
+    let result2 = s1.endsWith("/^[A-Az-z0-9\s]+$/"); 
 
     // let result = ''; // Placeholder for validation result
 
